@@ -10,7 +10,8 @@ namespace TimingToDo
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine(DateTime.Now.ToString());
+            Console.ReadKey();
         }
     }
 }
